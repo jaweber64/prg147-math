@@ -1,0 +1,36 @@
+/* CSS Document */
+
+.w3-container{
+	max-width: 1060px;
+	margin: 0 auto;
+}
+
+.w3-panel{
+	max-width: 1060px;
+	margin: 0 auto;
+}
+
+body {
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+}
+
+h4{
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: darkblue;
+}
+
+
+
+ul{
+	list-style:none;
+}
+
+#head{
+    font-style:italic;
+    font-weight: bold;
+    text-align:center;
+}
+
+
+

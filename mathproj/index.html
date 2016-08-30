@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="/lib/w3-theme-indigo.css">
+<link rel="stylesheet" href="styles.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Initial Math</title>
+</head>
+
+<body>
+<header class="w3-panel w3-text-indigo" id="head">
+    <h1>Playing Around With Math</h1>
+</header>
+
+<div class="w3-container w3-section w3-border w3-round-xlarge w3-border-indigo">
+
+    <h4 style="text-align:center">x = 7, y = 9</h4>
+
+    <div class="w3-panel" style="background-color: #d1dffa">
+        <h4>Addition</h4>
+        <p id="add1"></p>
+        <p id="add2"></p>
+    </div>
+
+    <div class="w3-panel w3-light-grey">
+        <h4>Subtraction</h4>
+        <p id="sub1"></p>
+        <p id="sub2"></p>
+    </div>
+
+    <div class="w3-panel" style="background-color: #d1dffa">
+        <h4>Multiplication</h4>
+        <p id="mul1"></p>
+        <p id="mul2"></p>
+    </div>
+
+    <div class="w3-panel w3-light-grey">
+        <h4>Division</h4>
+        <p id="div1"></p>
+        <p id="div2"></p>
+    </div>
+
+    <div class="w3-panel" style="background-color: #d1dffa">
+        <h4>Modulus</h4>
+        <p id="mod1"></p>
+        <p id="mod2"></p>
+    </div>
+
+    <div class="w3-panel w3-light-grey">
+        <h4>Increment & Decrement</h4>
+        <p id="inc1"></p>
+        <p id="inc2"></p>
+        <p id="dec1"></p>
+        <p id="dec2"></p>
+    </div>
+
+</div>
+
+<script>
+    var x = 7, y = 9, z = x + y;
+    document.getElementById("add1").innerHTML = "x + y = " + z;
+    z = 12 + 23
+    document.getElementById("add2").innerHTML = "23 + 12 = " + z;
+
+    z = x - y;
+    document.getElementById("sub1").innerHTML = "x - y = " + z;
+    z = 23 - 12;
+    document.getElementById("sub2").innerHTML = "23 - 12 = " + z;
+
+    z = x * y;
+    document.getElementById("mul1").innerHTML = "x * y = " + z;
+    z = 6.3 * 12;
+    document.getElementById("mul2").innerHTML = "6.3 * 12 = " + z;
+
+    z = x / y;
+    document.getElementById("div1").innerHTML = "x / y = " + z;
+    z = 23 / 12;
+    document.getElementById("div2").innerHTML = "23 / 12 = " + z;
+
+    z = x % y;
+    document.getElementById("mod1").innerHTML = "x % y = " + z;
+    z = 23 % 12;
+    document.getElementById("mod2").innerHTML = "23 % 12 = " + z;
+
+    document.getElementById("inc1").innerHTML = "x++ = " + x++;
+    document.getElementById("inc2").innerHTML = "x now = " + x;
+    document.getElementById("dec1").innerHTML = "x-- = " + x--;
+    document.getElementById("dec2").innerHTML = "x now = " + x;
+
+</script>
+
+</body>
+</html>
